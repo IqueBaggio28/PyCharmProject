@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #e5e4e2;
+
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    border-bottom: 5px solid blue;
+    flex: 1;
+}
