@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + .5rem);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: cadetblue;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask_container {
+    border: 5px solid darkcyan;
+    background: lightseagreen;
+    width: 50%;
+    aspect-ratio: 16/9;
+    border-radius: 5rem;
+}
+
+.question {
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    height: 70%;
+    padding-top: 2rem;
+}
+.answer {
+    display: flex;
+    align-items: start;
+    height: 30%;
+    gap: 18rem;
+}
+input {
+    background: darkcyan;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+.yes_button{
+    position: relative;
+    left: 9rem;
+}
+.cat_main{
+    width: 20rem;
+    height: auto;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
